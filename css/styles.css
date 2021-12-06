@@ -248,7 +248,7 @@ textarea {
     animation: 20s cloud-move-reverse infinite alternate linear;
 }
 
-@media all and(max-width: 500px) {
+@media all and (max-width: 500px) {
     .grid {
 
      grid-template-columns: 1fr;
@@ -257,7 +257,7 @@ textarea {
     }
 }
 
-@media all and (min-wdit: 500px) and (max-width: 750px) {
+@media all and (min-width: 500px) and (max-width: 750px) {
     .grid {
         grid-template-columns: 1fr 1fr;
         overflow: scroll;
@@ -265,7 +265,7 @@ textarea {
     }
 }
 
-@media all and (max-width: 750) {
+@media all and (max-width: 750px) {
     .grid {
         grid-gap: 15px;
         overflow: scroll;
@@ -281,9 +281,9 @@ textarea {
         font-size: 25px;
     }
 }
-
 .svg-animation {
     max-width: 750px;
     overflow: scroll;
     max-width: 95vw;
 }
+
